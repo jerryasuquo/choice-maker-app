@@ -1,0 +1,32 @@
+.header {
+    background: $brand;
+    margin-bottom: $med;
+    padding: .1rem;
+}
+
+.header__text {
+    color: $background;
+    font-size: 1.55rem;
+    margin-left: -23rem;
+}
+
+
+
+/* media queries */
+@media (min-width: $desktop) {
+    .header {
+        margin-bottom: $xl;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .header__text {
+        margin-left: 7rem;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1080px) {
+    .header__text {
+        margin-left: -8.5rem;
+    }
+}

@@ -1,0 +1,49 @@
+.large-button {
+    background: $button;
+    border: none;
+    border-bottom: .5rem solid darken($button, 15%);
+    color: $background;
+    font-weight: bold;
+    font-size: $large;
+    width: 100%;
+    padding: 1rem 1.1rem;
+    margin-bottom: $med;
+    border-radius: 1.5%;
+}
+
+.large-button:disabled {
+    opacity: .5;
+}
+
+.button,
+.modal-button {
+    background: $button;
+    border: none;
+    border-bottom: .3rem solid darken($button, 15%);
+    font-weight: 500;
+    padding: $small;
+}
+
+.modal-button {
+    color: $background;
+}
+
+.button__links {
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.add-button {
+    color: $background;
+    background: $button;
+    border: none;
+    font-weight: 500;
+    padding: $small;
+}
+
+@media (min-width: $desktop) {
+    .large-button {
+        margin-bottom: $xl;
+    }
+}

@@ -1,0 +1,30 @@
+.add-option-error {
+    color: $error;
+    font-style: italic;
+    padding: 0 $med;
+    margin: $med 0 0 0;
+}
+
+.add-option {
+    display: flex;
+    flex-direction: column;
+    padding: $med;
+}
+
+.add-option__input {
+    border: 1px solid gray;
+    border-radius: 4px;
+    flex-grow: 1;
+    padding: $med;
+    margin: 0 0 $small 0;
+}
+
+@media (min-width: $desktop) {
+    .add-option {
+        flex-direction: row;
+    }
+
+    .add-option__input {
+        margin: 0 $small 0 0;
+    }
+}

@@ -1,0 +1,22 @@
+.widget {
+    background: lighten($background, 10%);
+    margin-bottom: $xl;
+    color: black;
+
+}
+
+.widget-header {
+    display: flex;
+    justify-content: space-between;
+    padding: $med;
+}
+
+.widget__message {
+    text-align: center;
+    margin: 0;
+    padding: $large;
+}
+
+.widget-header__title {
+    margin: 0;
+}
